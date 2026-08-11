@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://c1n7dkrfjbkw8"]
+
+[ext_resource type="Script" uid="uid://bbeen2kpnpbb6" path="res://scripts/nexus.gd" id="1_d26b4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_km8nn"]
+size = Vector2(83, 310)
+
+[node name="Nexus" type="RigidBody2D" unique_id=2114285765]
+collision_layer = 16
+collision_mask = 14
+script = ExtResource("1_d26b4")
+
+[node name="Replacemewithasprite" type="ColorRect" parent="." unique_id=1334242318]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -41.5
+offset_top = -155.25
+offset_right = 41.5
+offset_bottom = 155.25
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=36189180]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_km8nn")
