@@ -22,6 +22,7 @@ offset_right = 41.5
 offset_bottom = 155.25
 grow_horizontal = 2
 grow_vertical = 2
+color = Color(0, 0, 1, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=36189180]
 position = Vector2(0.5, 0)

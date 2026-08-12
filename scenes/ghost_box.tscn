@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://do46d8xkounne"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_on5l8"]
+size = Vector2(75, 75)
+
+[node name="GhostBox" type="Area2D" unique_id=664591064]
+collision_layer = 0
+collision_mask = 31
+
+[node name="Replacemewithasprite" type="ColorRect" parent="." unique_id=481067166]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -37.5
+offset_top = -37.5
+offset_right = 37.5
+offset_bottom = 37.5
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.39215687)
+
+[node name="Cover" type="ColorRect" parent="." unique_id=1616542803]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -37.5
+offset_top = -37.5
+offset_right = 37.5
+offset_bottom = 37.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1431054062]
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_on5l8")
